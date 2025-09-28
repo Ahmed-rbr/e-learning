@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+  --color-primary: #f6faff;
+
+  /* Secondary colors */
+  --color-secondary: #494b4c;
+  --bg-secondary: #d5effa;
+
+  /* Accent colors */
+  --color-accent: #6556ff;
+  --color-accent-hover: #e0e2ff;
+
+  --animate-wiggle: wiggle 8s linear infinite;
+  @keyframes wiggle {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
