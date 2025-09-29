@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ couseData }) => {
   return (
-    <div className="flex border border-primary flex-col  shadow-2xl space-y-6 rounded-2xl px-6 py-4 bg-primary">
+    <div className="flex border relative border-primary flex-col  shadow-2xl space-y-6 rounded-2xl px-6 py-4 bg-primary">
       <img className="rounded-2xl" src={couseData.course_banner} alt="" />
       <h1 className="font-semibold w-full md:w-4/5 leading-10 text-3xl tracking-wide">
         {couseData.title}{" "}
@@ -35,6 +35,10 @@ const Card = ({ couseData }) => {
           <p>{couseData.students} Students</p>
         </div>
       </div>
+      <p className=" absolute top-2/6 right-4 px-6 py-3  bg-accent uppercase  text-primary font-medium tracking-wide rounded-4xl ">
+        {" "}
+        Best Seller
+      </p>
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <article className="pt-42 flex-col md:flex-row items-center  flex min-w-full px-6  justify-between bg-primary">
+    <article className=" flex-col md:flex-row items-center  flex min-w-full px-6  justify-between bg-primary">
       <section className="md:w-2/4 w-full">
         <div className="flex  mb-8 items-center gap-4">
           <img src="../../public/images/banner/check.svg" alt="" />

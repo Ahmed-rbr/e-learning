@@ -3,14 +3,19 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Companies from "./components/Companies";
 import Courses from "./components/Courses";
+import MentorCard from "./components/MentorCard";
+import Mentors from "./components/Mentors";
 
 const App = () => {
   return (
-    <div className="space-y-16">
+    <div>
       <Navbar />
-      <HeroSection />
-      <Companies />
-      <Courses />
+      <main className="pt-42  space-y-24">
+        <HeroSection />
+        <Companies />
+        <Courses />
+        <Mentors />
+      </main>
     </div>
   );
 };

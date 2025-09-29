@@ -3,7 +3,7 @@ const Navbar = () => {
     <nav className=" fixed top-0  bg-primary min-w-full py-3 shadow-lg px-4 flex justify-between items-center">
       <img
         className="hover:cursor-pointer w-36 sm:w-fit"
-        src="../../public/images/logo/logo.svg"
+        src="/images/logo/logo.svg"
         alt=""
       />
       <ul className="hidden lg:flex gap-6 justify-between text-xl font-medium">
@@ -40,11 +40,7 @@ const Navbar = () => {
           Sign Up
         </button>
       </div>
-      <img
-        className="lg:hidden w-6 h-6 "
-        src="../../public/images/burger.png"
-        alt=""
-      />
+      <img className="lg:hidden w-6 h-6 " src="/images/burger.png" alt="" />
     </nav>
   );
 };
