@@ -1,7 +1,9 @@
 const Companies = () => {
   return (
-    <section className="text-center space-y-12 ">
-      <h2 className="text-2xl font-bold">Trusted by companies of all sizes</h2>
+    <section className=" z-0 text-center space-y-12 ">
+      <h2 className="sm:text-2xl text-xl  font-bold">
+        Trusted by companies of all sizes
+      </h2>
 
       <div className="overflow-hidden">
         <div className="flex animate-wiggle">

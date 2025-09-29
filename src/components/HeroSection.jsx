@@ -2,7 +2,10 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <article className=" flex-col md:flex-row items-center  flex min-w-full px-6  justify-between bg-primary">
+    <article
+      id="home"
+      className="z-0 flex-col md:flex-row items-center  flex min-w-full px-6  justify-between bg-primary"
+    >
       <section className="md:w-2/4 w-full">
         <div className="flex  mb-8 items-center gap-4">
           <img src="../../public/images/banner/check.svg" alt="" />
@@ -24,31 +27,27 @@ const HeroSection = () => {
           />
           <img
             className="absolute  hover:bg-accent-hover border border-accent bg-accent top-1.5 right-2 rounded-4xl p-1.5 "
-            src="../../public/images/banner/search.svg"
+            src="/images/banner/search.svg"
           />
         </div>
-        <ul className="grid gap-4 grid-cols-1 text-sm  md:text-xl md:grid-cols-2">
+        <ul className="grid gap-4  text-sm  md:text-xl grid-cols-1 sm:grid-cols-2">
           <li className="flex gap-2 items-center">
-            <img src="../../public/images/banner/check-circle.svg" />
+            <img src="/images/banner/check-circle.svg" />
             <p>Flexible Schedules</p>
           </li>
           <li className="flex gap-2 items-center">
             {" "}
-            <img src="../../public/images/banner/check-circle.svg" />
+            <img src="/images/banner/check-circle.svg" />
             <p>Guided Learning Paths</p>
           </li>
           <li className="flex gap-2 items-center">
-            <img src="../../public/images/banner/check-circle.svg" />
+            <img src="/images/banner/check-circle.svg" />
             <p>Peer Support Community</p>
           </li>
         </ul>
       </section>
 
-      <img
-        className="md:w-2/4 w-full"
-        src="../../public/images/banner/mahila.png"
-        alt=""
-      />
+      <img className="md:w-2/4 w-full" src="/images/banner/mahila.png" alt="" />
     </article>
   );
 };

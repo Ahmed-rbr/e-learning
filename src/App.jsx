@@ -5,6 +5,7 @@ import Companies from "./components/Companies";
 import Courses from "./components/Courses";
 import MentorCard from "./components/MentorCard";
 import Mentors from "./components/Mentors";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Companies />
         <Courses />
         <Mentors />
+        <Testimonials />
       </main>
     </div>
   );

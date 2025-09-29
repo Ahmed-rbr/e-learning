@@ -2,9 +2,9 @@ import React from "react";
 
 const Card = ({ couseData }) => {
   return (
-    <div className="flex border relative border-primary flex-col  shadow-2xl space-y-6 rounded-2xl px-6 py-4 bg-primary">
+    <div className="flex w-full  border relative border-primary flex-col  shadow-2xl space-y-6 rounded-2xl p-2 md:px-6 py-4 bg-primary">
       <img className="rounded-2xl" src={couseData.course_banner} alt="" />
-      <h1 className="font-semibold w-full md:w-4/5 leading-10 text-3xl tracking-wide">
+      <h1 className="font-semibold w-full md:w-4/5 leading-10 text-2xl md:text-3xl tracking-wide">
         {couseData.title}{" "}
       </h1>
       <p>{couseData.mentor}</p>
@@ -25,17 +25,17 @@ const Card = ({ couseData }) => {
         <h2 className="font-bold text-2xl">{couseData.price}</h2>
       </div>
       <hr className="border-t border-gray-300 my-4" />
-      <div className="flex font-medium  pb-12 justify-between">
-        <div className="flex text-secondary gap-4 justify-between">
+      <div className="flex font-medium items-center  pb-12 justify-between">
+        <div className="flex md:flex-row items-center flex-col text-secondary gap-4 justify-between">
           <img src="/images/courses/book-open.svg" alt="" />
           <p>{couseData.classes} Classes</p>
         </div>
-        <div className="flex text-secondary  gap-4 justify-between">
+        <div className="flex md:flex-row flex-col items-center text-secondary  gap-4 justify-between">
           <img src="/images/courses/users.svg" alt="" />
           <p>{couseData.students} Students</p>
         </div>
       </div>
-      <p className=" absolute top-2/6 right-4 px-6 py-3  bg-accent uppercase  text-primary font-medium tracking-wide rounded-4xl ">
+      <p className=" absolute top-0 right-2 px-4 text-xs py-3  bg-accent uppercase  text-primary font-medium tracking-wide rounded-4xl ">
         {" "}
         Best Seller
       </p>

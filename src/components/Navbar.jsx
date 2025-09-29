@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className=" fixed top-0  bg-primary min-w-full py-3 shadow-lg px-4 flex justify-between items-center">
+    <nav className="z-50 fixed top-0  bg-primary min-w-full py-3 shadow-lg px-4 flex justify-between items-center">
       <img
         className="hover:cursor-pointer w-36 sm:w-fit"
         src="/images/logo/logo.svg"

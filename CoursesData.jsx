@@ -61,3 +61,24 @@ export const Mentors = [
     title: "Product Design Lead",
   },
 ];
+
+export const testimonialData = [
+  {
+    pic: "/images/testimonial/user1.webp",
+    text: "Engaging content and flexible learning schedules helped me upskill without disrupting my work.",
+    name: "Leslie Alexander",
+    title: "Founder, TechWave Solutions",
+  },
+  {
+    pic: "/images/testimonial/user2.webp",
+    text: "Highly recommend! The hands-on projects and supportive community boosted my confidence and skills.",
+    name: "Cody Fisher",
+    title: "Product Manager, InnovateX",
+  },
+  {
+    pic: "/images/testimonial/user3.webp",
+    text: "The courses transformed my career! The practical approach and expert mentorship made all the difference.",
+    name: "Michelle Bennett",
+    title: "CEO, Parkview International Ltd",
+  },
+];
