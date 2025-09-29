@@ -6,6 +6,7 @@ import Courses from "./components/Courses";
 import MentorCard from "./components/MentorCard";
 import Mentors from "./components/Mentors";
 import Testimonials from "./components/Testimonials";
+import Form from "./components/Form";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Courses />
         <Mentors />
         <Testimonials />
+        <Form />
       </main>
     </div>
   );
