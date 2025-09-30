@@ -21,7 +21,7 @@ const Form = () => {
     );
   };
   return (
-    <section id="contact" className="flex px-4 md:px-6 mb-20 flex-col">
+    <section id="contact" className="flex px-4 md:px-6 mb-16 flex-col">
       <h1 className="md:text-6xl mb-12 text-3xl w-full  lg:w-2/5 tracking-wide font-bold">
         Get in Touch
       </h1>

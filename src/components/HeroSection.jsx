@@ -1,4 +1,5 @@
 import React from "react";
+import Search from "./Search";
 
 const HeroSection = () => {
   return (
@@ -19,17 +20,11 @@ const HeroSection = () => {
         <p className="text-xl mb-8 text-secondary tracking-wide font-normal ">
           Build skills with our courses and mentor from world-class companies.
         </p>
-        <div className="mb-8 w-full md:w-11/12 relative ">
-          <input
-            className="px-6 md:px-12 py-4 focus:outline-none border focus:border-accent border-gray-300 rounded-4xl w-full  shadow-lg"
-            type="text"
-            placeholder="Search engineering courses..."
-          />
-          <img
-            className="absolute  hover:bg-accent-hover border border-accent bg-accent top-1.5 right-2 rounded-4xl p-1.5 "
-            src="/images/banner/search.svg"
-          />
-        </div>
+
+        <Search
+          placeholder={"Search engineering courses..."}
+          img={"/images/banner/search.svg"}
+        />
         <ul className="grid gap-4  text-sm  md:text-xl grid-cols-1 sm:grid-cols-2">
           <li className="flex gap-2 items-center">
             <img src="/images/banner/check-circle.svg" />
