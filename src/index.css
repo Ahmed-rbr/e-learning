@@ -9,6 +9,7 @@
   /* Accent colors */
   --color-accent: #6556ff;
   --color-accent-hover: #e0e2ff;
+  --color-footer: #d5effa;
 
   --animate-wiggle: wiggle 8s linear infinite;
   @keyframes wiggle {

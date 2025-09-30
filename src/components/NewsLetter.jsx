@@ -4,7 +4,7 @@ import Search from "./Search";
 const NewsLetter = () => {
   return (
     <section
-      className="flex mb-100 text-center  gap-6  items-center flex-col justify-center
+      className="flex mb-16 text-center  gap-6  items-center flex-col justify-center
      px-8 w-11/12 m-auto py-8 bg-[url('/images/newsletter/bgFile.webp')] bg-cover bg-center "
     >
       <div className="flex flex-col gap-4 bg-cover bg-center  items-center">

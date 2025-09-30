@@ -8,6 +8,7 @@ import Mentors from "./components/Mentors";
 import Testimonials from "./components/Testimonials";
 import Form from "./components/Form";
 import NewsLetter from "./components/NewsLetter";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Testimonials />
         <Form />
         <NewsLetter />
+        <Footer />
       </main>
     </div>
   );
