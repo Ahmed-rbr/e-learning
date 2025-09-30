@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <main className="pt-42  space-y-24">
+      <main className="pt-15  space-y-24">
         <HeroSection />
         <Companies />
         <Courses />

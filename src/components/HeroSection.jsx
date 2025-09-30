@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <article
       id="home"
-      className="z-0 flex-col md:flex-row items-center  flex min-w-full px-6  justify-between bg-primary"
+      className="z-0 pt-15 flex-col md:flex-row items-center  flex min-w-full px-6  justify-between bg-primary"
     >
       <section className="md:w-2/4 w-full">
         <div className="flex  mb-8 items-center gap-4">
