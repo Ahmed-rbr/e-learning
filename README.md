@@ -1,12 +1,63 @@
-# React + Vite
+# elearningschool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live site: [https://elearningschool.netlify.app/](https://elearningschool.netlify.app/)
 
-Currently, two official plugins are available:
+A modern, responsive e-learning platform built with React and Tailwind CSS. It showcases available courses and mentors, helping users explore educational opportunities. Designed to be fully responsive and fast, it delivers a clean, intuitive user experience across all devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## About
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+`elearningschool` is a responsive React website that presents educational resources and course-like content. The project uses **React** for the UI and **Tailwind CSS** for utility-first styling. The site is built with responsiveness in mind so it looks good on mobile, tablet, and desktop.
+
+## Live Demo
+
+Open the live site: [https://elearningschool.netlify.app/](https://elearningschool.netlify.app/)
+
+## Features
+
+- Responsive layout (mobile-first)
+- Built with React (functional components + hooks)
+- Styled using Tailwind CSS
+- Fast and lightweight (no heavy UI library)
+- Easy to extend and maintain
+
+## Tech Stack
+
+- React ( Vite)
+- Tailwind CSS
+- JavaScript (ES6+)
+- Deployed to: Netlify
+
+## Installation & Local Development
+
+1. Clone the repo
+
+```bash
+git clone https://github.com/Ahmed-rbr/portfolio.git
+cd project
+```
+
+2. Install dependencies
+
+```bash
+npm install
+# or
+yarn
+```
+
+3. Run the dev server
+
+```bash
+npm run dev
+# or
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) (or the port printed by your dev tool).
+
+> If you used Vite, use `npm run dev`. If Create React App, use `npm start`.
+
+```
+© 2025 Ahmed rabar
+```
